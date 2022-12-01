@@ -1,0 +1,48 @@
+
+/*==========HEADER=========*/
+nav ul li  {
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.routes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10;
+    gap: 20;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+    transition: color .3s;
+
+    &:hover{
+        color: var(--caption);
+    }
+}
+
+
+/*=======Image=======*/
+    
+.netflix {
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+}
+
+.film {
+    background-image: url('./../../assets/flash.png');
+    background-position: center;
+    /*background: no-repeat;*/
+    width: 77%;
+    height: 77vh;
+}
